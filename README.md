@@ -1,0 +1,2 @@
+# python
+gonna learn python
