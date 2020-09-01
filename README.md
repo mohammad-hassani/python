@@ -1,2 +1,2 @@
 # python
-gonna learn python
+gonna learn python 🙂
