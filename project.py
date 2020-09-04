@@ -1,10 +1,4 @@
-user ="ali"
-x=7
-print(x)
-print(user)
-print(x+3)
-print(user + " alavi")
-foo=3
-del foo
-foo =4
-print(foo)
+name = input("input youre name: ")
+age= int(input("and youre age"))
+print("Hello,"+name)
+print("youre age is:" + str(age))
