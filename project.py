@@ -1,20 +1,10 @@
-boolean=True
-print(boolean)
-print(2==3)
-#False
+if 10>5:
+    print("10 is grater than 5")
+print("end program")
 
-print("Hello"=="Hello")
-#True
 
-print(1 != 1)
-#False
-
-print(7>5)
-#True
-print(10<10)
-#False
-
-print(7 <= 8)
-#True
-print(9>=9.0)
-#True
+num=12
+if num>5:
+    print("bigger than 5")
+    if num <= 47:
+        print('between 5 and 47')
