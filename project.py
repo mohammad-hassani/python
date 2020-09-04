@@ -1,4 +1,7 @@
-name = input("input youre name: ")
-age= int(input("and youre age"))
-print("Hello,"+name)
-print("youre age is:" + str(age))
+x=2
+print(x)
+x+=3
+print(x)
+t="Hello"
+t+=" world!"
+print(t)
