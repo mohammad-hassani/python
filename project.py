@@ -1,14 +1,8 @@
-print(1==1 and 2==2)
+print(False==False or True)
 #true
-print(1==1 and 2==3)
+print(False==(False or True))
 #false
 
-print(1!=1 or 2==2)
-#true
-print(2<1 or 3>6)
-#false
-
-print(not 1==1)
-#false
-print(not 1>7)
-#true
+grade=88
+if(grade>= 70 and grade <= 100):
+    print("Passed!")
