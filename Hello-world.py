@@ -1,4 +1,4 @@
-print(2+3)
-print(2+6-7)
-print(1+3*2)
-print(2*(3/4))
+print(2.5)
+print(8/2)
+print(6*7.0)
+print(4+1.65)
