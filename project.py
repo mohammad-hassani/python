@@ -1,38 +1,31 @@
-words=["Hello","world","!"]
-print(words[0])
-print(words[1])
-print(words[2])
-print(words)
+i=1
+while i<=5:
+    print(i)
+    i=i+1
 
-m=[
-    [1,2,3],
-    [4,5,6]
-    ]
-print(m[1][2])
-str="Hello word!"
-print(str[6])    
+print("finished!")
 
-nums=[7,7,7,7,7]
-nums[2]=5
-print(nums)
+x=1
+while x<10:
+    if x%2 ==0:
+        print(str(x)+" is even")
+    else:
+        print(str(x)+" is odd")
+    x+=1
 
-print(nums+[4,5,6])
-print(nums*3)
+j=0
+while True:
+    print(j)
+    j=j+1
+    if j>=5:
+        print("breaking")
+        break
+print("finished")
 
-print("Hello"in words)
-print("world" in words)
-print("?" in words)
-
-print(not "hey" in words)
-print(not "!" in words)
-
-words.append("hey!")
-print(words)
-
-print(len(words))
-
-index=1
-words.insert(index,"hey")
-print(words)
-
-print(words.index("Hello"))
+d=1
+while d<=5:
+    print(i)
+    d+=1
+    if d==3:
+        print("skipping 3")
+        continue
