@@ -1,8 +1,13 @@
-print(False==False or True)
-#true
-print(False==(False or True))
-#false
+words=["Hello","world","!"]
+print(words[0])
+print(words[1])
+print(words[2])
+print(words)
 
-grade=88
-if(grade>= 70 and grade <= 100):
-    print("Passed!")
+m=[
+    [1,2,3],
+    [4,5,6]
+    ]
+print(m[1][2])
+str="Hello word!"
+print(str[6])    
