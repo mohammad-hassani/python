@@ -11,3 +11,17 @@ m=[
 print(m[1][2])
 str="Hello word!"
 print(str[6])    
+
+nums=[7,7,7,7,7]
+nums[2]=5
+print(nums)
+
+print(nums+[4,5,6])
+print(nums*3)
+
+print("Hello"in words)
+print("world" in words)
+print("?" in words)
+
+print(not "hey" in words)
+print(not "!" in words)
