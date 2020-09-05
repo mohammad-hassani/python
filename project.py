@@ -25,3 +25,14 @@ print("?" in words)
 
 print(not "hey" in words)
 print(not "!" in words)
+
+words.append("hey!")
+print(words)
+
+print(len(words))
+
+index=1
+words.insert(index,"hey")
+print(words)
+
+print(words.index("Hello"))
